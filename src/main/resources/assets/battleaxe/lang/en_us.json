@@ -1,0 +1,20 @@
+{
+	"item.battleaxe.wooden_battleaxe" : "Wooden Battleaxe",
+	"item.battleaxe.stone_battleaxe" : "Stone Battleaxe",
+	"item.battleaxe.iron_battleaxe" : "Iron Battleaxe",
+	"item.battleaxe.golden_battleaxe" : "Golden Battleaxe",
+	"item.battleaxe.diamond_battleaxe" : "Diamond Battleaxe",
+	"item.battleaxe.netherite_battleaxe" : "Netherite Battleaxe",
+	
+	
+	
+	"enchantment.battleaxe.disabling" : "Disabling",
+	
+	
+	
+	"advancements.adventure.create_wooden_battleaxe.title" : "Best of Both Worlds",
+	"advancements.adventure.create_wooden_battleaxe.description" : "Craft a wooden battleaxe",
+
+	"advancements.adventure.create_netherite_battleaxe.title" : "Mastery",
+	"advancements.adventure.create_netherite_battleaxe.description" : "Craft a netherite battleaxe"
+}

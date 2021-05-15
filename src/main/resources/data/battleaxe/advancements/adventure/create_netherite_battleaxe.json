@@ -1,0 +1,35 @@
+{
+	"parent" : "battleaxe:adventure/create_wooden_battleaxe",
+	"display" : {
+		"icon" : {
+      		"item" : "battleaxe:netherite_battleaxe"
+    	},
+    	"title" : {
+      		"translate" : "advancements.adventure.create_netherite_battleaxe.title"
+    	},
+    	"description" : {
+      		"translate" : "advancements.adventure.create_netherite_battleaxe.description"
+    	},
+    	"frame" : "task",
+    	"show_toast" : true,
+    	"announce_to_chat" : true,
+    	"hidden" : false
+  	},
+  	"criteria" : {
+    	"netherite_battleaxe" : {
+      		"trigger" : "minecraft:inventory_changed",
+      		"conditions" : {
+        		"items" : [
+          			{
+            			"item" : "battleaxe:netherite_battleaxe"
+          			}
+        		]
+      		}
+    	}
+  	},
+  	"requirements" : [
+    	[
+      		"netherite_battleaxe"
+    	]
+  	]
+}

@@ -1,0 +1,35 @@
+{
+	"parent" : "minecraft:adventure/root",
+	"display" : {
+		"icon" : {
+      		"item" : "battleaxe:wooden_battleaxe"
+    	},
+    	"title" : {
+      		"translate" : "advancements.adventure.create_wooden_battleaxe.title"
+    	},
+    	"description" : {
+      		"translate" : "advancements.adventure.create_wooden_battleaxe.description"
+    	},
+    	"frame" : "task",
+    	"show_toast" : true,
+    	"announce_to_chat" : true,
+    	"hidden" : false
+  	},
+  	"criteria" : {
+    	"wooden_battleaxe" : {
+      		"trigger" : "minecraft:inventory_changed",
+      		"conditions" : {
+        		"items" : [
+          			{
+            			"item" : "battleaxe:wooden_battleaxe"
+          			}
+        		]
+      		}
+    	}
+  	},
+  	"requirements" : [
+    	[
+      		"wooden_battleaxe"
+    	]
+  	]
+}
